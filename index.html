@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta http-equiv="Permissions-Policy" content="unload=()">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <title>Portfolio - José Guizado | Analista de Sistemas</title>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-code me-2"></i>José Guizado
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="fas fa-home me-1"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            <i class="fas fa-cogs me-1"></i>Habilidades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            <i class="fas fa-briefcase me-1"></i>Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="fas fa-envelope me-1"></i>Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Principal -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100 g-5">
+                <div class="col-lg-7 order-2 order-lg-1">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold mb-4">José Guizado</h1>
+                        <h2 class="h3 mb-4">
+                            <span class="text-gradient">Analista de Sistemas</span>
+                        </h2>
+                        <p class="lead mb-4 fs-5">
+                            Analista de Sistemas con experiencia en desarrollo de software, bases de datos y reportes
+                            BI. Especializado en <span class="fw-semibold text-primary">SQL Server</span>,
+                            <span class="fw-semibold text-primary">Power BI</span> y sistemas web y de escritorio.
+                            Responsable, adaptable y orientado a resultados.
+                        </p>
+                        <div class="d-flex flex-column flex-md-row gap-3">
+                            <a href="assets/doc/71853663_Jose_Guizado.pdf" download="CV-Jose-Guizado.pdf"
+                                class="btn btn-primary btn-lg">
+                                <i class="fas fa-download me-2"></i>Descargar CV
+                            </a>
+                            <a href="#projects" class="btn btn-outline-secondary btn-lg">
+                                <i class="fas fa-eye me-2"></i>Ver Proyectos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <div class="profile-image-container text-center">
+                        <img src="assets/images/joseguizado.png" alt="José Guizado" class="img-fluid" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="skills" class="hero-section gradient-reverse">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-12">
+                    <div class="text-center section-title-up">
+                        <h2 class="display-5 fw-bold mb-3">
+                            <span class="text-gradient">Habilidades Técnicas</span>
+                        </h2>
+                        <p class="lead text-muted">Tecnologías y herramientas que domino</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="skill-card text-center h-100 d-flex flex-column">
+                                <div class="mb-4">
+                                    <i class="fas fa-database fa-4x"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Bases de Datos</h4>
+                                <p class="text-muted flex-grow-1">
+                                    SQL Server, diseño de bases de datos, optimización de consultas y
+                                    administración de sistemas de gestión de datos
+                                </p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-center gap-2 flex-wrap">
+                                        <span class="badge bg-primary">SQL Server</span>
+                                        <span class="badge bg-secondary">T-SQL</span>
+                                        <span class="badge bg-info">MySQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="skill-card text-center h-100 d-flex flex-column">
+                                <div class="mb-4">
+                                    <i class="fas fa-chart-bar fa-4x"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Business Intelligence</h4>
+                                <p class="text-muted flex-grow-1">
+                                    Power BI, creación de reportes, análisis de datos, dashboards
+                                    interactivos y visualización de información
+                                </p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-center gap-2 flex-wrap">
+                                        <span class="badge bg-warning">Power BI</span>
+                                        <span class="badge bg-success">Excel</span>
+                                        <span class="badge bg-primary">DAX</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mx-auto">
+                            <div class="skill-card text-center h-100 d-flex flex-column">
+                                <div class="mb-4">
+                                    <i class="fas fa-code fa-4x"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Desarrollo</h4>
+                                <p class="text-muted flex-grow-1">
+                                    Sistemas web y de escritorio, análisis y diseño de sistemas,
+                                    arquitectura de software y desarrollo full-stack
+                                </p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-center gap-2 flex-wrap">
+                                        <span class="badge bg-danger">HTML/CSS</span>
+                                        <span class="badge bg-warning">JavaScript</span>
+                                        <span class="badge bg-info">C#/.NET</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-12">
+                    <div class="text-center section-title-up">
+                        <h2 class="display-5 fw-bold mb-3">
+                            <span class="text-gradient">Proyectos</span>
+                        </h2>
+                        <p class="lead text-muted">Algunos de mis trabajos más destacados</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0">
+                                <div class="card-body d-flex flex-column text-center p-4">
+                                    <div class="mb-4">
+                                        <i class="fas fa-cogs fa-4x text-secondary"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Sistema de Gestión</h5>
+                                    <p class="card-text text-muted flex-grow-1 mb-4">
+                                        Desarrollo de sistema web para gestión empresarial con SQL Server
+                                        y reportes integrados. Incluye módulos de inventario, ventas y facturación.
+                                    </p>
+                                    <div class="d-flex justify-content-center gap-2 flex-wrap mb-3">
+                                        <span class="badge bg-primary">SQL Server</span>
+                                        <span class="badge bg-info">ASP.NET</span>
+                                        <span class="badge bg-success">Bootstrap</span>
+                                    </div>
+                                    <div class="mt-auto">
+                                        <span class="badge bg-secondary fs-6 px-3 py-2">
+                                            <i class="fas fa-clock me-1"></i>En desarrollo
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Proyecto Dashboard BI -->
+                        <div class="col-lg-4 col-md-6 position-relative">
+                            <!-- Badge destacado -->
+                            <span class="position-absolute badge bg-success rounded-pill badge-destacado">
+                                <i class="fas fa-star me-1"></i>Destacado
+                            </span>
+                            <div class="card h-100 shadow-lg border-0">
+                                <div class="card-body d-flex flex-column text-center p-4">
+                                    <div class="mb-4">
+                                        <i class="fas fa-chart-bar fa-4x text-success"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Dashboard BI</h5>
+                                    <p class="card-text text-muted flex-grow-1 mb-4">
+                                        Creación de dashboard interactivo en Power BI para análisis de ventas y KPIs
+                                        empresariales. Incluye métricas en tiempo real y filtros dinámicos.
+                                    </p>
+                                    <div class="d-flex justify-content-center gap-2 flex-wrap mb-4">
+                                        <span class="badge bg-warning">Power BI</span>
+                                        <span class="badge bg-primary">DAX</span>
+                                        <span class="badge bg-info">SQL Server</span>
+                                    </div>
+                                    <div class="mt-auto">
+                                        <button type="button" class="btn btn-success btn-lg w-100"
+                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            <i class="fas fa-eye me-2"></i>Ver Proyecto
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mx-auto">
+                            <div class="card h-100 border-0">
+                                <div class="card-body d-flex flex-column text-center p-4">
+                                    <div class="mb-4">
+                                        <i class="fas fa-desktop fa-4x text-info"></i>
+                                    </div>
+                                    <h5 class="card-title fw-bold mb-3">Aplicación de Escritorio</h5>
+                                    <p class="card-text text-muted flex-grow-1 mb-4">
+                                        Sistema de escritorio para control de inventarios con base de datos SQL Server.
+                                        Interfaz intuitiva con reportes automáticos y gestión de usuarios.
+                                    </p>
+                                    <div class="d-flex justify-content-center gap-2 flex-wrap mb-3">
+                                        <span class="badge bg-primary">C# WinForms</span>
+                                        <span class="badge bg-secondary">SQL Server</span>
+                                        <span class="badge bg-success">Crystal Reports</span>
+                                    </div>
+                                    <div class="mt-auto">
+                                        <span class="badge bg-info fs-6 px-3 py-2">
+                                            <i class="fas fa-check me-1"></i>Completado
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-12">
+                    <div class="text-center section-title">
+                        <h2 class="display-5 fw-bold mb-3">
+                            <span class="text-gradient">Contacto</span>
+                        </h2>
+                        <p class="lead text-muted">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div
+                                        class="contact-info text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                                        <div class="mb-3">
+                                            <a href="mailto:josesg2357@gmail.com"
+                                                class="text-decoration-none text-primary">
+                                                <i class="fas fa-envelope fa-3x"></i>
+                                            </a>
+                                        </div>
+                                        <a href="mailto:josesg2357@gmail.com" class="text-decoration-none">
+                                            <h5 class="fw-bold mb-2">Email</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div
+                                        class="contact-info text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                                        <div class="mb-3">
+                                            <a href="tel:+51999083255" class="text-decoration-none text-success">
+                                                <i class="fas fa-phone fa-3x"></i>
+                                            </a>
+                                        </div>
+                                        <a href="tel:+51999083255" class="text-decoration-none">
+                                            <h5 class="fw-bold mb-2">Teléfono</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div
+                                        class="contact-info text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                                        <div class="mb-3">
+                                            <a href="https://instagram.com/salazarseik" target="_blank"
+                                                rel="noopener noreferrer" class="text-decoration-none text-danger">
+                                                <i class="fab fa-instagram fa-3x"></i>
+                                            </a>
+                                        </div>
+                                        <a href="https://instagram.com/salazarseik" target="_blank"
+                                            rel="noopener noreferrer" class="text-decoration-none">
+                                            <h5 class="fw-bold mb-2">Instagram</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                        <p class="mb-2 mb-md-0 fw-medium">
+                            &copy; <span id="currentYear"></span> José Guizado. Todos los derechos reservados.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a href="mailto:josesg2357@gmail.com" class="text-white-50 text-decoration-none">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://instagram.com/salazarseik" target="_blank" rel="noopener noreferrer"
+                                class="text-white-50 text-decoration-none">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#home" class="text-white-50 text-decoration-none">
+                                <i class="fas fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Mejorado con Pantalla Completa Verdadera -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header" id="modalHeader">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Dashboard BI - Restaurante Señor Limón</h1>
+                    <div class="d-flex gap-2 align-items-center">
+                        <button type="button" class="btn-close-custom" id="fullscreenBtn"
+                            title="Pantalla completa verdadera">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </button>
+                        <button type="button" class="btn-close-custom" id="minimizeBtn" title="Minimizar"
+                            style="display: none;">
+                            <i class="fas fa-compress-arrows-alt"></i>
+                        </button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <iframe id="powerBIFrame" title="PBIRestauranteSeñorLimon" width="100%" height="600"
+                        src="https://app.powerbi.com/reportEmbed?reportId=1caec419-bbf8-4b12-945b-647c9c24db51&autoAuth=true&ctid=1ede6a1f-4aec-4876-82a2-8fdc2c7d72ed&navContentPaneEnabled=true&filterPaneEnabled=true&showTabs=true"
+                        frameborder="0" allowFullScreen="true"
+                        sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay de Pantalla Completa -->
+    <div id="fullscreenOverlay" class="fullscreen-overlay" style="display: none;">
+        <div class="fullscreen-controls">
+            <button type="button" class="btn-close-custom" id="exitFullscreenBtn" title="Salir de pantalla completa">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <iframe id="fullscreenFrame" title="PBIRestauranteSeñorLimon" width="100%" height="100%" frameborder="0"
+            allowFullScreen="true"
+            sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-presentation">
+        </iframe>
+    </div>
+
+    <!-- Botones Flotantes -->
+    <div class="floating-buttons">
+        <!-- Botón Scroll to Top -->
+        <button id="scrollToTopBtn" class="floating-btn scroll-top-btn" title="Subir arriba">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <!-- Botón Dark/Light Mode -->
+        <button id="themeToggleBtn" class="floating-btn theme-toggle-btn" title="Cambiar tema">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script>
+            // Año dinámico en el footer
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+</body>
+
+</html>
