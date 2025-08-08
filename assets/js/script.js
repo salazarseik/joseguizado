@@ -307,4 +307,10 @@ function initFloatingButtons() {
     if (themeToggleBtn) {
         themeToggleBtn.addEventListener('click', toggleTheme);
     }
+
+    // Año dinámico en el footer
+    const currentYearElement = document.getElementById('currentYear');
+    if (currentYearElement) {
+        currentYearElement.textContent = new Date().getFullYear();
+    }
 }
