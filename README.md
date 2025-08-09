@@ -12,7 +12,7 @@ Bienvenido al portafolio profesional de **José Guizado**, Analista de Sistemas.
 
 ## Descripción General
 Este portafolio está diseñado para presentar de manera clara y visual mis competencias como Analista de Sistemas, incluyendo:
-- Experiencia en desarrollo de sistemas web y de escritorio.
+- Experiencia en desarrollo de sistemas web, escritorio y móviles.
 - Dominio de bases de datos (SQL Server, MySQL, T-SQL).
 - Creación de reportes y dashboards en Power BI.
 - Habilidades en análisis, diseño y arquitectura de software.
